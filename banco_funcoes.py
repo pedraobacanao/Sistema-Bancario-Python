@@ -1,7 +1,6 @@
 saldo=0
 historico=[]
 
-senha_criar=0
 def senha():
     senha_criar = int(input("Crie sua senha: "))
     if len(str(senha_criar)) < 4:
@@ -57,8 +56,8 @@ def ver_historico():
     if len(historico)==0:
         print("Nenhuma operação registrada")
     else:
-        for operaçao in historico:
-            print(operaçao)
+        for operacao in historico:
+            print(operacao)
 
 def sair():
     print("Sair selecionado")
