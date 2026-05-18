@@ -25,7 +25,7 @@ def menu():
 def ver_saldo():
     global saldo
     print("Ver saldo selecionado")
-    print(f"O saldo atual é de {saldo}")
+    print(f"O saldo atual é de: {saldo}")
 
 def depositar():
     global saldo
@@ -36,7 +36,7 @@ def depositar():
     else:
         saldo += valor_deposito
         historico.append(f"Depósito: {valor_deposito}")
-        print(f"O valor de> {valor_deposito} foi depositado, operação salva no histórico")
+        print(f"O valor de: {valor_deposito} foi depositado, operação salva no histórico")
 
 def sacar():
     global saldo
